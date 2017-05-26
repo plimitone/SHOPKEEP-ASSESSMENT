@@ -357,7 +357,45 @@ public class ShopKeepAssessment {
 		} catch (Throwable e) {
 			System.out.println(e);
 		}
+		////////
 		
+		/*
+		 * Drag button to screen, verify that it's no longer in the list
+		*/
+		//drag the list item to the screen area
+		//check that the dragged button appears on the screen
+		
+		
+		/*
+		 * Delete a button from the screen
+		*/
+		//check that the button you want to delete is on the screen
+		//delete the button
+		//verify the button is no longer on the screen
+		
+		
+		/*
+		 * Change the color of a button on the screen
+		*/
+		//verify the button whose color you want to change is already placed on the screen
+		//change the color of the button
+		//verify the color has changed from previous color
+		
+		/*
+		 * Change the label of a button on the screen
+		*/
+		//verify the button whose label you want to change is already on the screen
+		//click to select the button
+		//change the label of the button
+		//verify the label has changed
+		
+		
+		/*
+		 * Reposition the button on the screen
+		*/
+		//verify the button whose position you want to change is on the screen
+		//click to select the button and then drag it to new place on screen
+		//verify placement has changed
 		System.out.println("For now we're done....\n");
 		//close the window when all is done
 		ffd.close();
