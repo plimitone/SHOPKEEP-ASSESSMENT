@@ -14,6 +14,8 @@ Other items:
   - Tighten up comments to be more detailed and meaningful for better readability.
   - Remove println statement when code is production ready. I added these for my own tracking when code was executing
   
+- Do the drag/drop items, have never done that, couldn't get it to work, removed all the bad code, pseudocoded with comments
+  
  
 Notes:
 - If there are no results to display, should 'No results' be displayed for empty searches or invalid searches?
