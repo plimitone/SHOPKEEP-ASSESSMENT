@@ -18,8 +18,6 @@ Other items:
 Notes:
 - If there are no results to display, should 'No results' be displayed for empty searches or invalid searches?
 
-- Are the list items draggable and able to be repositioned? That does not seem to work here.
-
 - Are page names allowed to be duplicated? (i.e.: Create a new page with same name as page that already exists). OR Rename an existing page to a page name that already exists.
 
 -
