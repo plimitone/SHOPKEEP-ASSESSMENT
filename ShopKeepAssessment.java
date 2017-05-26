@@ -79,7 +79,7 @@ public class ShopKeepAssessment {
 		Thread.sleep(5000);
 		
 		//Maximize the webpage
-		ffd.manage().window().maximize();
+		//ffd.manage().window().maximize();
 		
 		//Now login using user name and password
 		ffd.findElement(By.xpath("/html/body/div/div[1]/form/div[2]/div/input")).sendKeys("philip_limitone@shopkeep.com");
@@ -88,8 +88,8 @@ public class ShopKeepAssessment {
 		System.out.println("Entered password");
 		
 		//Wait for things to clear up
-		System.out.println("Wait for things to clear up before clicking login");
-		Thread.sleep(10000);
+		//System.out.println("Wait for things to clear up before clicking login");
+		//Thread.sleep(10000);
 		
 		//Click Login button
 		ffd.findElement(By.xpath("//div[4]/input")).click();
