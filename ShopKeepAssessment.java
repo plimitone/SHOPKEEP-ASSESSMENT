@@ -334,9 +334,11 @@ public class ShopKeepAssessment {
 		
 		//click on the created page to make sure it's in focus
 		ffd.findElement(By.xpath("/html/body/div[1]/div[4]/div[3]/div[2]/div[4]/div[2]/div[2]/a[2]/span[1]")).click();
+		System.out.println("created page is clicked and in focus");
 		
 		//then click the delete button on top right
 		ffd.findElement(By.xpath("/html/body/div[1]/div[4]/div[3]/div[2]/header/div[2]/a[2]")).click();
+		System.out.println("Clicked the delete button on top right");
 		
 		//verify the confirmation dialog appears, check the title to be sure
 		ffd.findElement(By.xpath("/html/body/div[2]/div/div[1]/div/div[1]/h2"));
@@ -396,6 +398,8 @@ public class ShopKeepAssessment {
 		//verify the button whose position you want to change is on the screen
 		//click to select the button and then drag it to new place on screen
 		//verify placement has changed
+		
+		
 		System.out.println("For now we're done....\n");
 		//close the window when all is done
 		ffd.close();
